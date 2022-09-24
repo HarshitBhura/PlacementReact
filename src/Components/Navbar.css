@@ -1,0 +1,43 @@
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.nav_logoTitle{
+    text-decoration: none;
+    border: 0;
+    color: orange;
+    margin-left: 50px;
+}
+
+
+.header_nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 1000px;
+}
+
+.nav_item{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:orange;
+}
+.nav_itemLineOne{
+    font-size: 10px;
+}
+
+.nav_itemLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+
